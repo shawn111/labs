@@ -1,15 +1,14 @@
 {
-  "title": "Text code editor",
-  "description": "Learn the first steps with Vim",
+  "title": "Helix",
+  "description": "A post-modern modal text editor.",
   "details": {
     "intro": {
       "text": "intro.md",
-      "background": "background.sh"
     },
     "steps": [
       {
-        "title": "Prepare files to edit",
-        "text": "pages/files.md"
+        "title": "prepare helix",
+        "text": "setup.md"
       },
       {
         "text": "pages/modes.md"
