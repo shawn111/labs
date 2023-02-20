@@ -1,0 +1,13 @@
+{
+  "title": "First Steps",
+  "description": "Learn the first steps with Vim",
+  "details": {
+    "intro": {
+      "text": "editor.md",
+      "background": "background.sh"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
