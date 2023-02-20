@@ -15,14 +15,30 @@ Text Code Editor
 
 <!-- sed -e '/localhost/r file2' -e "s///" file1 -->
 
-___aa.md___
-
-
 <!--
 https://marp.app/
 marp cli / marp vs
 npx @marp-team/marp-cli@latest slide-deck.md
 -->
+
+----
+
+![bg left:30%](https://avatars.githubusercontent.com/u/346761?v=4)
+
+- Shawn Wang 王榮祥
+- 成大電通所
+
+<br />
+
+- EasyStack Distro (openstack on k8s)
+- Canonical OEM / infra
+- 廣達 NB BIOS enginneer
+
+<br />
+
+- KaLUG
+- [github/shawn111](https://github.com/shawn111)
+
 
 ----
 
@@ -286,7 +302,9 @@ bash          ✘ bash-lan…   None          ✓             ✘             �
 
 ## ctags
 
-- ctags https://zhuanlan.zhihu.com/p/36279445
+- generates an index (or tag) file of language objects found in source files
+
+- [Vim 8 中 C/C++ 符号索引：GTags 篇](https://zhuanlan.zhihu.com/p/36279445)
 - universal-ctags
 
 
@@ -294,14 +312,8 @@ bash          ✘ bash-lan…   None          ✓             ✘             �
 
 # C/C++ LSP server
 
-- clangd
-- cquery
-- ccls
+- ccls: @MaskRay 老大在cquery作恶之后fork之, 另立门户后之作, 早已加入lsp官方 259 豪华大餐
+- cquery: 在ccls还未出现且clangd仍然残废时期唯一可用的language server.
+- clangd: llvm出品, 但是因为因review效率低下等原因层开发迟缓, 不知是否因为最近发力, qt和jetbrain纷纷表示支持, 比如clion给用户提供了clangd作为error和warning的选项. 不过从其在各个社区的交流中貌似可以看出其用户量貌似是三者中最少的?
 
-----
-
-https://killercoda.com/vim
-
-
-
-
+https://emacs-china.org/t/topic/6428

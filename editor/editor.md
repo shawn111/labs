@@ -15,14 +15,27 @@ Text Code Editor
 
 <!-- sed -e '/localhost/r file2' -e "s///" file1 -->
 
-___aa.md___
-
-
 <!--
 https://marp.app/
 marp cli / marp vs
 npx @marp-team/marp-cli@latest slide-deck.md
 -->
+
+----
+
+![bg left:30%](https://avatars.githubusercontent.com/u/346761?v=4)
+
+- Shawn Wang 王榮祥
+- 成大電通所
+
+<br />
+
+- EasyStack Distro (openstack on k8s)
+- Canonical OEM / infra
+- 廣達 NB BIOS enginneer
+- KaLUG Kaohsiung linux user group
+- [slide](https://github.com/shawn111/labs/blob/main/editor/editor.md) / [labs](https://killercoda.com/shawn111)
+
 
 ----
 
@@ -318,7 +331,9 @@ bash          ✘ bash-lan…   None          ✓             ✘             �
 
 ## ctags
 
-- ctags https://zhuanlan.zhihu.com/p/36279445
+- generates an index (or tag) file of language objects found in source files
+
+- [Vim 8 中 C/C++ 符号索引：GTags 篇](https://zhuanlan.zhihu.com/p/36279445)
 - universal-ctags
 
 
@@ -326,14 +341,7 @@ bash          ✘ bash-lan…   None          ✓             ✘             �
 
 # C/C++ LSP server
 
-- clangd
-- cquery
-- ccls
+- [clangd](https://clangd.llvm.org/): part of the LLVM project.
+- [ccls](https://github.dev/shawn111/labs/editor/editor.md): more features
 
-----
-
-https://killercoda.com/vim
-
-
-
-
+https://emacs-china.org/t/topic/6428
