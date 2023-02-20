@@ -3,7 +3,7 @@
   "description": "A post-modern modal text editor.",
   "details": {
     "intro": {
-      "text": "intro.md",
+      "text": "intro.md"
     },
     "steps": [
       {
@@ -11,31 +11,13 @@
         "text": "setup.md"
       },
       {
-        "text": "pages/modes.md"
+        "text": "code-move.md"
       },
       {
-        "text": "pages/modes-normal.md"
+        "text": "health.md"
       },      
       {
-        "text": "pages/num.md"
-      },
-      {
-        "text": "pages/search.md"
-      },
-      {
-        "text": "pages/copy.md"
-      },
-      {
-        "text": "pages/save.md"
-      },
-      {
-        "text": "pages/win.md"
-      },
-      {
-        "text": "pages/key.md"
-      },
-      {
-        "text": "pages/plugin.md"
+        "text": "space.md"
       }
     ]
   },

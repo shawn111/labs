@@ -8,6 +8,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 
 ![bg left:43%](https://catonmat.net/images/why-vim-uses-hjkl/hjkl-tshirt.png)
+
 # **Vim, serious?**
 
 ~~How to exit the Vim editor?~~
@@ -34,8 +35,9 @@ npx @marp-team/marp-cli@latest slide-deck.md
 - Canonical OEM / infra
 - 廣達 NB BIOS enginneer
 
-- KaLUG
-- [github/shawn111](https://github.com/shawn111)
+- KaLUG - Kaohsiung Linux User Group [![Telegram](https://img.shields.io/badge/-telegram-red?color=white&logo=telegram&logoColor=blue)](https://t.me/+QX0S5Q0Wg-1r637K)
+- [slide:github/shawn111 - editor/editor.md](https://github.dev/shawn111/labs)
+- [labs:killercoda](https://killercoda.com/shawn111/)
 
 
 ----
@@ -118,6 +120,7 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 # vi modes:
 
 
+
 - Normal / Command (:)
   - Normal mode - h (left), j (down), k (up), l (right)
 - Insert (a,i) / Replace mode (r)
@@ -173,43 +176,26 @@ Don't forget exit: esc + :q
 
 ## Saving And Quitting
 
-- :w - write
-- :wq - write and quit
-- :w! - force write
-- :o file - open file
-- :q! - force quit
+___save.md___
 
 ----
 
 ### [windows & tabs](https://dev.to/iggredible/using-buffers-windows-and-tabs-efficiently-in-vim-56jc)
-- :tabnew file.txt # open file.txt in a new tab / :tabclose        # Close current tab
-- :tabnext / :tabprevious
-- :tablast / :tabfirst
-- split windows
-  - ctrl + w + v
-  - ctrl + w + s
-- vimdiff a b
-- :buffers
 
-![bg left:43%](https://res.cloudinary.com/practicaldev/image/fetch/s--97ib_XaT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/vdtga0qq2tuty22rsqxa.png)
+___win.md___
 
 ----
 
 ## key binding
 
-- ctrl + b back page
-- ctrl + f forward page
-- ctrl + v visual block
-- ctrl + w split windows
+___key.md___
 
 ----
 
 # vim plugins
 
-- vim-plug
-- Vundle
+___pligins.md___
 
-- https://vimawesome.com/
 
 ----
 
@@ -243,8 +229,8 @@ Don't forget exit: esc + :q
 
 
 ```
-            ┌────┐                          - Lang binding
-            │call│                          - parsers
+            ┌────┐                     - Lang binding
+            │call│                     - parsers
       ┌─────┴────┴─────┐
       │                │
 ┌─────▼────┐      ┌────▼────┐
@@ -269,64 +255,27 @@ Don't forget exit: esc + :q
 
 ## select and action
 
-- vi:    verb (action) + none (target)
-- helix: none (target) + verb (action)
-  - delete  vi (dw) / helix (wd)
-
-- multi select
-  - X
-  - c - multi line
-  - s - 
+===select.md===
 
 ----
 
 ## Tree-sitter Textobject Based Navigation
 
-- move to next function use ]f
-- move to previous class use [c
+===code-move.md===
 
 ----
 
 ## support status
 
-- hx --heleath (c)
+===health.md===
 
-```
-
-
-hx --health c
-Configured language server: clangd
-Binary for language server: Not found in $PATH
-Configured debug adapter: lldb-vscode
-Binary for debug adapter: Not found in $PATH
-Highlight queries: ✓
-Textobject queries: ✓
-Indent queries: ✓
-
-```
-
-```
-$ hx --health
-Config file: default
-Language file: default
-Log file: /home/shawn111/.cache/helix/helix.log
-Runtime directory: /nix/store/14r96fbcnqv4rcpwc964yirkr9hwnchk-helix-22.12/lib/runtime
-Clipboard provider: termcode
-System clipboard provider: termcode
-
-Language      LSP           DAP           Highlight     Textobject    Indent        
-astro         None          None          ✓             ✘             ✘             
-awk           ✘ awk-lang…   None          ✓             ✓             ✘             
-bash          ✘ bash-lan…   None          ✓             ✘             ✘               
-```
 
 
 ----
 
 ## space mode (helix)
 
-- space + k
-- space + s
+===space.md===
 
 ----
 
@@ -342,8 +291,7 @@ bash          ✘ bash-lan…   None          ✓             ✘             �
 
 # C/C++ LSP server
 
-- ccls: @MaskRay 老大在cquery作恶之后fork之, 另立门户后之作, 早已加入lsp官方 259 豪华大餐
-- cquery: 在ccls还未出现且clangd仍然残废时期唯一可用的language server.
-- clangd: llvm出品, 但是因为因review效率低下等原因层开发迟缓, 不知是否因为最近发力, qt和jetbrain纷纷表示支持, 比如clion给用户提供了clangd作为error和warning的选项. 不过从其在各个社区的交流中貌似可以看出其用户量貌似是三者中最少的?
+- [clangd](https://clangd.llvm.org/): part of the llvm project
+- [ccls](https://github.com/MaskRay/ccls): more features
 
 https://emacs-china.org/t/topic/6428
