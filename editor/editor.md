@@ -33,8 +33,9 @@ npx @marp-team/marp-cli@latest slide-deck.md
 - EasyStack Distro (openstack on k8s)
 - Canonical OEM / infra
 - 廣達 NB BIOS enginneer
-- KaLUG Kaohsiung linux user group
-- [slide](https://github.com/shawn111/labs/blob/main/editor/editor.md) / [labs](https://killercoda.com/shawn111)
+
+- KaLUG
+- [github/shawn111](https://github.com/shawn111)
 
 
 ----
@@ -341,7 +342,8 @@ bash          ✘ bash-lan…   None          ✓             ✘             �
 
 # C/C++ LSP server
 
-- [clangd](https://clangd.llvm.org/): part of the LLVM project.
-- [ccls](https://github.dev/shawn111/labs/editor/editor.md): more features
+- ccls: @MaskRay 老大在cquery作恶之后fork之, 另立门户后之作, 早已加入lsp官方 259 豪华大餐
+- cquery: 在ccls还未出现且clangd仍然残废时期唯一可用的language server.
+- clangd: llvm出品, 但是因为因review效率低下等原因层开发迟缓, 不知是否因为最近发力, qt和jetbrain纷纷表示支持, 比如clion给用户提供了clangd作为error和warning的选项. 不过从其在各个社区的交流中貌似可以看出其用户量貌似是三者中最少的?
 
 https://emacs-china.org/t/topic/6428

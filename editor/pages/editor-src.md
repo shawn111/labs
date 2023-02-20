@@ -34,8 +34,6 @@ npx @marp-team/marp-cli@latest slide-deck.md
 - Canonical OEM / infra
 - 廣達 NB BIOS enginneer
 
-<br />
-
 - KaLUG
 - [github/shawn111](https://github.com/shawn111)
 
