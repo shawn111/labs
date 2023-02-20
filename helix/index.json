@@ -1,0 +1,46 @@
+{
+  "title": "Text code editor",
+  "description": "Learn the first steps with Vim",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Prepare files to edit",
+        "text": "pages/files.md"
+      },
+      {
+        "text": "pages/modes.md"
+      },
+      {
+        "text": "pages/modes-normal.md"
+      },      
+      {
+        "text": "pages/num.md"
+      },
+      {
+        "text": "pages/search.md"
+      },
+      {
+        "text": "pages/copy.md"
+      },
+      {
+        "text": "pages/save.md"
+      },
+      {
+        "text": "pages/win.md"
+      },
+      {
+        "text": "pages/key.md"
+      },
+      {
+        "text": "pages/plugin.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
