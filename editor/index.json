@@ -1,11 +1,25 @@
 {
-  "title": "First Steps",
+  "title": "Text code editor",
   "description": "Learn the first steps with Vim",
   "details": {
     "intro": {
-      "text": "editor.md",
+      "text": "intro.md",
       "background": "background.sh"
-    }
+    },
+    "steps": [
+      {
+        "title": "Open, edit and close a file",
+        "text": "pages/modes.md"
+      },
+      {
+        "text": "pages/num.md"
+      },
+      {
+        "text": "pages/search.md"
+      },
+      {
+        "text": "pages/copy.md"
+      }
   },
   "backend": {
     "imageid": "ubuntu"

@@ -1,0 +1,6 @@
+- v highlight one character at a time.
+- V highlight one line at a time.
+- ctrl + v highlight by columns.
+- p paste text after the current line.
+- P paste text on the current line.
+- y yank text into the copy buffer.

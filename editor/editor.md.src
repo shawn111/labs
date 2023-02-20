@@ -103,57 +103,25 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 
 # vi modes:
 
-
-- Normal / Command (:)
-  - Normal mode - h (left), j (down), k (up), l (right)
-- Insert (a,i) / Replace mode (r)
-  - esc: exit insert mode
-- visual mode (v, V, ctrl+v) (vim only)
-
-Don't forget exit: esc + :q
-
-<!--
-[![asciicast](https://asciinema.org/a/14.png)](https://asciinema.org/a/14)
--->
+___modes.md___
 
 ----
 
 ## range / num / sort
 
-
-
-- :set nu
-- :1,$s
-- :1,10s
-
-- :sort - 
-- :sort u - 
+___num.md___
 
 ----
 
 ## Searching And Replacing
 
-
-
-- /text search for text in the document, going forward.
-- n move the cursor to the next instance of the text from the last search. This will wrap to the beginning of the document.
-- N move the cursor to the previous instance of the text from the last search.
-- ?text search for text in the document, going backwards.
-- :%s/text/replacement text/g search through the entire document for text and replace it with replacement text.
-- :%s/text/replacement text/gc search through the entire document and confirm before replacing text.
-
+___search.md___
 
 ----
 
 ## Copying And Pasting
 
-
-- v highlight one character at a time.
-- V highlight one line at a time.
-- ctrl + v highlight by columns.
-- p paste text after the current line.
-- P paste text on the current line.
-- y yank text into the copy buffer.
+___copy.md___
 
 ----
 
