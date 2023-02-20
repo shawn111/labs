@@ -1,3 +1,4 @@
+
 - Normal / Command (:)
   - Normal mode - h (left), j (down), k (up), l (right)
 - Insert (a,i) / Replace mode (r)

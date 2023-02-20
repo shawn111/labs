@@ -8,9 +8,15 @@
     },
     "steps": [
       {
-        "title": "Open, edit and close a file",
+        "title": "Prepare files to edit",
+        "text": "pages/files.md"
+      },
+      {
         "text": "pages/modes.md"
       },
+      {
+        "text": "pages/modes-normal.md"
+      },      
       {
         "text": "pages/num.md"
       },
