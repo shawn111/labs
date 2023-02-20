@@ -2,7 +2,7 @@
 
 ```plain
 mkdir -p $HOME/bin
-curl https://github.com/helix-editor/helix/releases/download/22.12/helix-22.12-x86_64.AppImage -o bin/hx
+curl -L https://github.com/helix-editor/helix/releases/download/22.12/helix-22.12-x86_64.AppImage -o $HOMEmbin/hx
 chmod +x $HOME/bin/hx
 
 export PATH=$HOME/bin:$PATH
@@ -21,5 +21,7 @@ vim hello.py
 ```
 hx hello.py
 ```
+:hsplit hello.go
+:vsplit hello.rs
 
 
