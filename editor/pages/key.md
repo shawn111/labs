@@ -1,0 +1,4 @@
+- ctrl + b back page
+- ctrl + f forward page
+- ctrl + v visual block
+- ctrl + w split windows

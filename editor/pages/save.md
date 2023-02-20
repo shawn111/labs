@@ -1,0 +1,5 @@
+- :w - write
+- :wq - write and quit
+- :w! - force write
+- :o file - open file
+- :q! - force quit
