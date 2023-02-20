@@ -1,5 +1,5 @@
 
-- hx --heleath (c)
+- hx --health (c)
 
 ```
 hx --health c

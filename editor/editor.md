@@ -176,19 +176,37 @@ Don't forget exit: esc + :q
 
 ## Saving And Quitting
 
-___save.md___
 
+- :w - write
+- :wq - write and quit
+- :w! - force write
+- :o file - open file
+- :q! - force quit
 ----
 
 ### [windows & tabs](https://dev.to/iggredible/using-buffers-windows-and-tabs-efficiently-in-vim-56jc)
 
-___win.md___
+
+- :tabnew file.txt # open file.txt in a new tab / :tabclose        # Close current tab
+- :tabnext / :tabprevious
+- :tablast / :tabfirst
+- split windows
+  - ctrl + w + v
+  - ctrl + w + s
+- vimdiff a b
+- :buffers
+
+![bg left:43%](https://res.cloudinary.com/practicaldev/image/fetch/s--97ib_XaT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/vdtga0qq2tuty22rsqxa.png)
 
 ----
 
 ## key binding
 
-___key.md___
+
+- ctrl + b back page
+- ctrl + f forward page
+- ctrl + v visual block
+- ctrl + w split windows
 
 ----
 
@@ -255,19 +273,59 @@ ___pligins.md___
 
 ## select and action
 
-===select.md===
+
+
+- vi:    verb (action) + none (target)
+- helix: none (target) + verb (action)
+  - delete  vi (dw) / helix (wd)
+
+- multi select
+  - X
+  - c - multi line
+  - s - 
 
 ----
 
 ## Tree-sitter Textobject Based Navigation
 
-===code-move.md===
+
+
+- move to next function use ]f
+- move to previous class use [c
 
 ----
 
 ## support status
 
-===health.md===
+
+
+- hx --health (c)
+
+```
+hx --health c
+Configured language server: clangd
+Binary for language server: Not found in $PATH
+Configured debug adapter: lldb-vscode
+Binary for debug adapter: Not found in $PATH
+Highlight queries: ✓
+Textobject queries: ✓
+Indent queries: ✓
+```
+
+```
+$ hx --health
+Config file: default
+Language file: default
+Log file: /home/shawn111/.cache/helix/helix.log
+Runtime directory: /nix/store/14r96fbcnqv4rcpwc964yirkr9hwnchk-helix-22.12/lib/runtime
+Clipboard provider: termcode
+System clipboard provider: termcode
+
+Language      LSP           DAP           Highlight     Textobject    Indent        
+astro         None          None          ✓             ✘             ✘             
+awk           ✘ awk-lang…   None          ✓             ✓             ✘             
+bash          ✘ bash-lan…   None          ✓             ✘             ✘               
+```
 
 
 
@@ -275,7 +333,10 @@ ___pligins.md___
 
 ## space mode (helix)
 
-===space.md===
+
+
+- space + k
+- space + s
 
 ----
 
