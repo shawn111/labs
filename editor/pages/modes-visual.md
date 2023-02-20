@@ -17,3 +17,6 @@ press `ESC`{{}} and type `:set nu`  to show line number
 
 ---------
 
+press `Crtl+v`{{}} then move the cursor to select what you want.
+
+
