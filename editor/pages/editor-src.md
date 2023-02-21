@@ -161,7 +161,7 @@ ___key.md___
 
 # vim plugins
 
-___pligins.md___
+___plugins.md___
 
 
 ----
